@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED).also {
             registerReceiver(reciver,it)
         }
+
     }
 
     override fun onStop() {
